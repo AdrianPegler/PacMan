@@ -7,7 +7,8 @@ def pi_print(message):
 
 def run():
     pi_print("Hello World!")
-
+def hello():
+    pi_print("Hello from the other side")
 
 def main():
     try:
