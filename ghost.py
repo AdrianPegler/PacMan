@@ -9,12 +9,9 @@ def pi_print(message):
 #Hier kommt alles rein, was der Pi / mBot ausführen soll
 def run():
     pi_print("Hello World!")
+    
 def hello():
     pi_print("Hello from the other side")
-    
-#Sinnlose Testfunktion um einen Konflikt zu erzeugen
-def my_sensless_fun():
-    pi_print("Woolooloo!!")
 
 #Vom Pi vorgegebene Main-Funktion
 def main():
@@ -25,3 +22,4 @@ def main():
         cyberpi.display.show_label(e, 16, int(8 * 0 + 5), int(17 * 1))
         raise
 main()
+
