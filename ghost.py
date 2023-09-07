@@ -16,6 +16,8 @@ def hello():
 def my_sensless_fun():
     pi_print("Woolooloo!!")
 
+#HSV
+
 #Vom Pi vorgegebene Main-Funktion
 def main():
     try:
