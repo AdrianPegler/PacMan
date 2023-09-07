@@ -25,3 +25,4 @@ def main():
         cyberpi.display.show_label(e, 16, int(8 * 0 + 5), int(17 * 1))
         raise
 main()
+hello 
