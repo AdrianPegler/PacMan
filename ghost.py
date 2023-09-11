@@ -2,12 +2,11 @@ import cyberpi
 import time
 import math, random
 
-das ist mein platz geht weg !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-#Sendet eine Nachricht an den CyberPi-Display
+#Hilfsfunktion um eine Nachricht auf dem Pi anzuzeigen
 def pi_print(message):
     cyberpi.display.show_label(message, 16, int(8*0 + 5), int(17 * 0))
 
-#Hier kommt alles rein, was der Pi / mBot ausführen soll
+#Hauptfunktion: Hier wir euer Code eingefügt
 def run():
     pi_print("Hello World!")
     
@@ -23,6 +22,4 @@ def main():
         cyberpi.display.show_label(e, 16, int(8 * 0 + 5), int(17 * 1))
         raise
 
-main()#didi
-# Hawaii Pizza ist lecker 
-# Alohaaaaaaaaaaaaaaaaa
+main()
