@@ -7,8 +7,11 @@ def pi_print(message):
 
 def run():
     pi_print("Hello World!")
+    
+def hello():
+    pi_print("Hello from the other side")
 
-
+#Vom Pi vorgegebene Main-Funktion
 def main():
     try:
         run()
@@ -16,5 +19,8 @@ def main():
         cyberpi.display.show_label("Exeption on Mbot 2", 16, int(8 * 0 + 5), int(17 * 0))
         cyberpi.display.show_label(e, 16, int(8 * 0 + 5), int(17 * 1))
         raise
+
+main()#didi
+# Hawaii Pizza ist lecker 
+# Alohaaaaaaaaaaaaaaaaa
 #hallo
-main()
