@@ -13,6 +13,9 @@ def run():
 def hello():
     pi_print("Hello from the other side")
 
+def sensless_function():
+    #Hier soll er eigentlich warten
+
 #Vom Pi vorgegebene Main-Funktion
 def main():
     try:
@@ -23,4 +26,3 @@ def main():
         raise
 
 main()
-# ich bin die beste 
