@@ -2,6 +2,8 @@ import cyberpi
 import time
 import math, random
 
+# Hir schreibt luis
+
 #Sendet eine Nachricht an den CyberPi-Display
 def pi_print(message):
     cyberpi.display.show_label(message, 16, int(8*0 + 5), int(17 * 0))
@@ -24,4 +26,4 @@ def main():
 
 main()#didi
 # Hawaii Pizza ist lecker 
-# Alohaaaaaaaaaaaaaaaaa
+# Alohaaaaaaaaaaaaaaaaa 
