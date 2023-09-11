@@ -4,11 +4,11 @@ import math, random
 
 # Hir schreibt luis
 
-#Sendet eine Nachricht an den CyberPi-Display
+#Hilfsfunktion um eine Nachricht auf dem Pi anzuzeigen
 def pi_print(message):
     cyberpi.display.show_label(message, 16, int(8*0 + 5), int(17 * 0))
 
-#Hier kommt alles rein, was der Pi / mBot ausführen soll
+#Hauptfunktion: Hier wir euer Code eingefügt
 def run():
     pi_print("Hello World!")
     
