@@ -4,6 +4,7 @@ import math, random
 #Das ist xmein Branch!!
 #Kranplätze müssen verdichtet sein!
 #Sendet eine Nachricht an den CyberPi-Display
+#I
 def pi_print(message):
     cyberpi.display.show_label(message, 16, int(8*0 + 5), int(17 * 0))
 
