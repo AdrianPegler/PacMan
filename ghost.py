@@ -2,8 +2,6 @@ import cyberpi
 import time
 import math, random
 
-#Ab hier arbeite ich alleine auf dem main.
-
 #Hilfsfunktion um eine Nachricht auf dem Pi anzuzeigen
 def pi_print(message):
     cyberpi.display.show_label(message, 16, int(8*0 + 5), int(17 * 0))
@@ -24,7 +22,4 @@ def main():
         cyberpi.display.show_label(e, 16, int(8 * 0 + 5), int(17 * 1))
         raise
 
-main()#didi
-# Hawaii Pizza ist lecker 
-# Alohaaaaaaaaaaaaaaaaa
-#hallo
+main()
