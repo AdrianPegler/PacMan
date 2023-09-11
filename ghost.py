@@ -2,6 +2,8 @@ import cyberpi
 import time
 import math, random
 
+#ab hier arbeite ich alleine berzan
+
 def pi_print(message):
     cyberpi.display.show_label(message, 16, int(8*0 + 5), int(17 * 0))
 
